@@ -3,7 +3,7 @@ import { Rows } from "../types/rows";
 
 
 
-const Version3 = ({rows,setRows,setProceed}:Rows) => {
+const Version3 = ({rows,setProceed}:Rows) => {
   const [blocks, setBlocks] = useState<{ x: number; y: number }[]>([]);
   const [activeblocks, setActiveBlocks] = useState<{ x: number; y: number }[]>([]);
   let arr: { x: number; y: number }[] = [];
